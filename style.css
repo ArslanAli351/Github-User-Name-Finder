@@ -1,0 +1,179 @@
+.main {
+
+    background-image: url("background\ img.jpg");
+    background-repeat: no-repeat;
+    background-size: 1110px 715px;
+    height: 715px;
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.header h2 {
+    font-size: 24px;
+    font-family: "Sixtyfour Convergence", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "BLED" 0,
+        "SCAN" 0,
+        "XELA" 0,
+        "YELA" 0;
+}
+
+#form {
+    text-align: center;
+    margin-top: 70px;
+
+
+}
+
+#form input {
+    border-radius: 20px;
+    width: 20%;
+    height: 20px;
+}
+
+#form button {
+    border-radius: 20px;
+    height: 23px;
+
+}
+
+#form button:hover {
+    height: 25px;
+    width: 6%;
+    background-color: #a3a3a4;
+}
+
+#head {
+    border: 2px solid rgb(3, 3, 3);
+    border-radius: 15px;
+    width: 80%;
+    margin-left: 110px;
+    height: 400px;
+
+}
+
+#head h1 {
+    font-family: "Source Serif 4", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    position: relative;
+    margin-top: -280px;
+    color: #000000;
+    width: 50%;
+    margin-left: 310px;
+
+}
+
+#head h1 span {
+    color: #424249;
+
+}
+
+#head img {
+    border-radius: 15px 50px 30px 5px;
+    height: 270px;
+    border: 3px solid rgb(90, 77, 77);
+}
+
+#bio {
+
+    width: 50%;
+    margin-top: -215px;
+    position: fixed;
+    margin-left: 310px;
+    color: #000000;
+    font-size: 27px;
+
+}
+
+#bio span {
+    font-size: 20px;
+    color: #424249;
+
+}
+
+#Repositories {
+    width: 30%;
+    margin-left: 310px;
+    position: relative;
+    margin-top: -80px;
+    color: #000000;
+    font-size: 27px;
+}
+
+#Repositories span {
+    color: #424249;
+
+}
+
+#location {
+    width: 30%;
+    margin-left: 250px;
+    position: fixed;
+    margin-top: -100px;
+    margin-left: 310px;
+    color: #000000;
+    font-size: 27px;
+
+}
+
+#location span {
+    font-size: 20px;
+    color: #424249;
+
+}
+
+#butHead button a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#butHead button {
+    margin-top: 60px;
+    margin-left: 50px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #76cafa;
+
+    width: 15%;
+    color: #333;
+    animation: pulse 1.5s infinite;
+}
+
+#butHead button:hover {
+    background-color: #88f0f4;
+}
+
+#hide {
+    display: none;
+
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+#error {
+    height: 30px;
+    color: #ef0c0c;
+    text-align: center;
+    font-size: 20px;
+}
